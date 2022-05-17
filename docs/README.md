@@ -74,7 +74,9 @@ The files mentioned below can be found in <https://github.com/billyc/turkish-key
 
 2. Copy the XCompose file into your home folder as `~/.XCompose`
 
-3. From Gnome Settings, choose Regional & Language, and under Input Sources:
+​       `cp XCompose ~/.XCompose`
+
+1. From Gnome Settings, choose Regional & Language, and under Input Sources:
    - Press `+`
    - Choose "English (United States)"
    - Select "English (Billy-En/De/Tr)"

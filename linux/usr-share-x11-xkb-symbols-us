@@ -2032,6 +2032,7 @@ xkb_symbols "en-de-tr"  {
     key <AD07> {[ u,          U,          udiaeresis, Udiaeresis ]};
     key <AB02> {[ x,          X,          scedilla,   Scedilla ]};
     key <AC10> {[ dead_diaeresis, colon,  paragraph,  degree ]};
+    key <AB06> {[ n,          N,          ntilde,     Ntilde ] };
    
     include "level3(ralt_switch)"
 };

@@ -2017,9 +2017,9 @@ xkb_symbols "de_se_fi"  {
 // Turkish (un)dot-i is alt-i
 // -------------------------
 partial alphanumeric_keys
-xkb_symbols "en-de-tr"  {
+xkb_symbols "en-comm-tr"  {
 
-    name[Group1] = "Billy En/De/Tr";
+    name[Group1] = "En/Tatar latin";
     include "us(basic)"
     include "eurosign(e)"
 
@@ -2028,9 +2028,8 @@ xkb_symbols "en-de-tr"  {
     key <AC05> {[ g,          G,          gbreve,     Gbreve ]};
     key <AD08> {[ i,          I,          idotless,   Iabovedot ]};
     key <AD09> {[ o,          O,          odiaeresis, Odiaeresis ]};
-    key <AC02> {[ s,          S,          ssharp,     U1E9E      ]};
-    key <AD07> {[ u,          U,          udiaeresis, Udiaeresis ]};
-    key <AB02> {[ x,          X,          scedilla,   Scedilla ]};
+    key <AC02> {[ s,          S,          scedilla,   Scedilla ]};
+    key <AD07> {[ u,          U,          udiaeresis, Udiaeresis ]};    
     key <AC10> {[ dead_diaeresis, colon,  paragraph,  degree ]};
     key <AB06> {[ n,          N,          ntilde,     Ntilde ] };
    

@@ -1380,8 +1380,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>en-de-tr</name>
-            <description>English (Billy-En/De/Tr)</description>
+            <name>en-comm-tr</name>
+            <description>English (En/Tatar latin)</description>
           </configItem>
         </variant>
         <variant>

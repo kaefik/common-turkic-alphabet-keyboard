@@ -2,11 +2,11 @@
 
 # Раскладка [Common Turkic Alphabet (Уртак төрки әлифба)](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet) для татарского языка
 
-Является форком проекта (US Keyboard Layout + German + Turkish: 3-in-1!)[https://github.com/billyc/en-de-tr-keyboard].
+Является форком проекта [US Keyboard Layout + German + Turkish: 3-in-1!](https://github.com/billyc/en-de-tr-keyboard)
 
 Данная раскладка полностью повторяет US (английскую) раскладку с добавлением дополнительных символов из Common Turkic Alphabet. Дополнительные символы получаются комбинацией клавиши `right-ALT` и буквы (смотрите ниже в таблице).
 
-Раскладка Common Turkic Alphabet может использоваться при работе с текстами на татарском языке латиницей. Также и с другими родственными языками, подробнее смотоите [здесь](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet).
+Раскладка Common Turkic Alphabet может использоваться при работе с текстами на татарском языке латиницей. Также и с другими родственными языками, подробнее смотрите [здесь](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet).
 
 
 
@@ -84,8 +84,8 @@ The provided setup file should work on Windows 7 and up.
    - Выберите "English (En/Tatar latin)"
    - Нажмите  `Add` (`Добавить`) и закройте.
 
-Замечание. пункты с 1 по 2 можнов ыполнить запуском скрипта `install_keyboard_common_turk.sh`.
- 
+**Замечание.** пункты с 1 по 2 можно выполнить запуском скрипта `install_keyboard_common_turk.sh`.
+
 
 ### Примечание
 

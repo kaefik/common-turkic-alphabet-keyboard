@@ -30,22 +30,6 @@
 | `ı/İ`  | `RIGHT-ALT` + `I` |
 
 
-**TODO: нужно проверить и исправить**
-```
-**About that Turkish `İ`**
-
-^a 
-**Circumflex** - 
-
-_EDIT -- this no longer works, ignore this_
-
-Some older Turkish words still use the circumflex `^` e.g. _bekârım_. You can type those by using what's called "dead key" combinations:
-
-- First type `SHIFT`+`RIGHT-ALT`+`6` (the circumflex key) -- nothing will show up on your screen
-- Then type the vowel. The letter with the cute little hat will magically appear: â, ô, ê, î
-```
-
-
 # Установка
 
 ## 1. Windows  - **TODO: нужно проверить и исправить**
@@ -70,13 +54,7 @@ The provided setup file should work on Windows 7 and up.
    sudo cp usr-share-x11-xkb-rules-evdev.xml /usr/share/X11/xkb/rules/evdev.xml
    ```
 
-2. Скопируйте файл XCompose в свою домашнюю папку `~/.XCompose`
-
-   ```bash
-   cp XCompose ~/.XCompose
-   ```
-
-3. Нужно перезайти в пользователя или просто перезагрузить компьютер
+3. Нужно перезайти в пользователя или  перезагрузить компьютер
 
 4. В Gnome `Settings` (`Настройки`), выбрать `Keyboard` (`Клавиатура`), и раздел `Input Sources` (`Источники ввода`):
    - Нажмите `+`
@@ -91,6 +69,6 @@ The provided setup file should work on Windows 7 and up.
 
 Вы можете сделать свою раскладку для своего языка или исправить или дополнить текущую раскладку. Можете использовать бесплатно в различных целях.
 
-Windows: Built with the [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx). Props to [keyboards.jargon-file.org](http://keyboards.jargon-file.org) for the initial KLC file!
+Windows: Built with the [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134). Props to [keyboards.jargon-file.org](http://keyboards.jargon-file.org) for the initial KLC file!
 
 Linux: I followed this blog to figure out how to do it: <http://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/>

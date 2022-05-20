@@ -2030,7 +2030,6 @@ xkb_symbols "en-comm-tr"  {
     key <AD09> {[ o,          O,          odiaeresis, Odiaeresis ]};
     key <AC02> {[ s,          S,          scedilla,   Scedilla ]};
     key <AD07> {[ u,          U,          udiaeresis, Udiaeresis ]};    
-    key <AC10> {[ dead_diaeresis, colon,  paragraph,  degree ]};
     key <AB06> {[ n,          N,          ntilde,     Ntilde ] };
    
     include "level3(ralt_switch)"

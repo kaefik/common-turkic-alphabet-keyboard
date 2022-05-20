@@ -32,15 +32,25 @@
 
 # Установка
 
-## 1. Windows  - **TODO: нужно проверить и исправить**
-```
-The provided setup file should work on Windows 7 and up.
+## 1. Windows
 
-- Download [intl+bc.zip](https://github.com/billyc/en-de-tr-keyboard/raw/master/windows/intl%2Bbc.zip)
-- Unzip the contents, and run `setup.exe`.
-- Then go to your system _Region & Language_ control panel. Under the English language options, you should be able to add/remove the "US International Alternate + Turkish" keyboard.
-- For my own system, I removed the "US Qwerty" keyboard so that Windows always defaults to this layout. Otherwise you may need to choose it from the language icon near your system clock/tray.
-```
+Установка клавиатуры работает ОС WIndows 7 и выше.
+
+1. скачать [tatlat](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/tatlat.zip)
+
+2. распакуйте архив и запустите `setup.exe`.
+
+3. На вашей системе
+
+   * WIndows 7 и Windows 8.1
+
+     зайдите в `Control Panel (Панель управления)` -> раздел `Clock, Language and Region` -> выбрать `Add a language` -> выбрать язык `English (United States)` -> выбрать `Options (Настройки)`
+
+   * Windows 10
+
+     * выберите `Settings (Настройки)` -> `Time & Language (Время & Язык)`  -> `Language (Язык)`-> кликнуть на `English (United States)` -> выбрать `Options (Настройки)` увидите что установлен Tatar latin
+
+4. удалите "US Qwerty" (Английский язык) чтобы был один United States (Tatar latin) в системе.
 
 ## 2. Ubuntu
 
@@ -68,6 +78,10 @@ The provided setup file should work on Windows 7 and up.
 ### Примечание
 
 Вы можете сделать свою раскладку для своего языка или исправить или дополнить текущую раскладку. Можете использовать бесплатно в различных целях.
+
+Можно скачать [Microsoft Keyboard Layout Creator](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/MSKLC.exe) и файл раскладки  [us-tatar_latin.klc](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/us-tatar_latin.klc)
+
+#### Другое
 
 Windows: Built with the [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134). Props to [keyboards.jargon-file.org](http://keyboards.jargon-file.org) for the initial KLC file!
 

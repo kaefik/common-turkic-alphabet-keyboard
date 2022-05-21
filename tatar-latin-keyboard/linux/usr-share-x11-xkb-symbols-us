@@ -2006,15 +2006,8 @@ xkb_symbols "de_se_fi"  {
     include "level3(ralt_switch)"
 };
 
-// BILLYKEY - EN/DE/TR
-// The three most common languages in Germany are German, English and TURKISH.
-// It makes sense to have one keyboard which can type all three.
-// The euro sign is placed over the e
-// German Esszet is alt-s
-// Umlauts are alt-a,o,u
-// Turkish sh is alt-x
-// Turkish soft-g is alt-g
-// Turkish (un)dot-i is alt-i
+// Tatar latin kaefik
+
 // -------------------------
 partial alphanumeric_keys
 xkb_symbols "en-comm-tr"  {

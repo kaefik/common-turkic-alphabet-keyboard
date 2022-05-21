@@ -1,6 +1,19 @@
-![keyboard map](https://github.com/kaefik/common-turkic-alphabet-keyboard/raw/master/keyboard-US-International.png "Full Keyboard Map")
+# Практичные раскладки для татарского языка
 
-# Раскладка [Common Turkic Alphabet (Уртак төрки әлифба)](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet) для татарского языка
+Проект раскладки для татарского языка будет содержать так называемые практичные раскладки которые добавляют в основные стандартные раскладки клавиатур возможность использования специфичных для татарского языка символов.
+
+Например:
+
+* в стандартную раскладку English (United States) добавлены буквы от  Общего тюркского алфавита который используется в татарском языке.
+* в стандартную раскладку Russian добавлены буквы татарского алфавита на кирилице.
+
+
+
+Данный подход позволяет использовать минимальное количество используемых раскладок в операционных системах и тем самым использовать татарский язык в ежедневном использовании.
+
+
+
+## Раскладка [Общий тюркский алфавит (Common Turkic Alphabet, Уртак төрки әлифба)](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet) для татарского языка
 
 Является форком проекта [US Keyboard Layout + German + Turkish: 3-in-1!](https://github.com/billyc/en-de-tr-keyboard)
 
@@ -8,9 +21,9 @@
 
 Раскладка Common Turkic Alphabet может использоваться при работе с текстами на татарском языке латиницей. Также и с другими родственными языками, подробнее смотрите [здесь](https://en.wikipedia.org/wiki/Common_Turkic_Alphabet).
 
+![keyboard map](https://github.com/kaefik/tatar-keyboard-int/blob/master/keyboard-US-TatarLatin.png "Full Keyboard Map")
 
-
-## Комбинации клавиш специфичных для Common Turkic Alphabet
+### Комбинации клавиш специфичных для Common Turkic Alphabet
 
 На английской клавиатуре клавиша `AltGr` - это клавиша **ALT** с правой стороны от клавиши пробел.
 
@@ -29,16 +42,22 @@
 | `ğ`    | `RIGHT-ALT` + `G` |
 | `ı/İ`  | `RIGHT-ALT` + `I` |
 
+### Дополнительные символы
 
-# Установка
 
-## 1. Windows
+| Буква         | Как получить букву |
+| ------------- | ------------------ |
+| € (знак евро) | `RIGHT-ALT` + `e`  |
+
+### Установка
+
+#### 1. Windows
 
 Установка клавиатуры работает ОС WIndows 7 и выше.
 
-1. скачать [tatlat](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/tatlat.zip)
+1. скачать [tatlat](https://github.com/kaefik/tatar-keyboard-int/blob/master/tatar-latin-keyboard/windows/tatlat.zip)
 
-2. распакуйте архив и запустите `setup.exe`.
+2. распакуйте архив и запустите `setup.exe` и перезагрузите windows.
 
 3. На вашей системе
 
@@ -52,9 +71,9 @@
 
 4. удалите "US Qwerty" (Английский язык) чтобы был один United States (Tatar latin) в системе.
 
-## 2. Ubuntu
+#### 2. Ubuntu
 
-Файлы которые используются ниже вы найдете здесь <https://github.com/kaefik/common-turkic-alphabet-keyboard/linux>
+Файлы которые используются ниже вы найдете здесь https://github.com/kaefik/tatar-keyboard-int/tree/master/tatar-latin-keyboard/linux
 
 
 1. Скопировать два файла у казанные места используя `sudo`:
@@ -75,7 +94,71 @@
 **Замечание.** пункты с 1 по 2 можно выполнить запуском скрипта `install_keyboard_common_turk.sh`.
 
 
-### Примечание
+
+## Раскладка [татарского языка на основе кирилицы](https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C)
+
+Данная раскладка полностью повторяет `RU (Русская)` раскладку с добавлением дополнительных символов из татарского языка на кирилице. Дополнительные символы получаются комбинацией клавиши `right-ALT` и буквы (смотрите ниже в таблице).
+
+
+
+![keyboard map](https://github.com/kaefik/tatar-keyboard-int/blob/master/keyboard-RU-Tatar.png "Full Keyboard Map RU Tatar cirilic")
+
+### Комбинации клавиш специфичных для татарского языка
+
+На английской клавиатуре клавиша `AltGr` - это клавиша **ALT** с правой стороны от клавиши пробел.
+
+Чтобы напечатать:
+
+   * строчную букву зажимаете `RIGHT-ALT` и нажимаете букву.
+   * прописную букву зажимаете две клавиши `SHIFT` and `RIGHT-ALT` и затем нажимаете букву.
+
+
+| Буква | Как получить букву |
+| ----- | ------------------ |
+| ә     | `RIGHT-ALT` + `а`  |
+| җ     | `RIGHT-ALT` + `ж`  |
+| ң     | `RIGHT-ALT` + `н`  |
+| ө     | `RIGHT-ALT` + `о`  |
+| һ     | `RIGHT-ALT` + `х`  |
+| ү     | `RIGHT-ALT` + `у`  |
+
+
+
+### Дополнительные символы
+
+
+| Буква          | Как получить букву |
+| -------------- | ------------------ |
+| ₽ (знак рубля) | `RIGHT-ALT` + `р`  |
+| ё              | `RIGHT-ALT` + `е`  |
+
+### Установка
+
+#### 1. Windows
+
+Установка клавиатуры работает ОС WIndows 7 и выше.
+
+1. скачать [tatarrus](https://github.com/kaefik/tatar-keyboard-int/tree/master/tatar-russia-keyboard/windows/tatarrus.zip)
+
+2. распакуйте архив и запустите `setup.exe` и перезагрузите windows.
+
+3. На вашей системе
+
+   * WIndows 7 и Windows 8.1
+
+     зайдите в `Control Panel (Панель управления)` -> раздел `Clock, Language and Region` -> выбрать `Add a language` -> выбрать язык `Russian` -> выбрать `Options (Настройки)`
+
+   * Windows 10
+
+     * выберите `Settings (Настройки)` -> `Time & Language (Время & Язык)`  -> `Language (Язык)`-> кликнуть на `Russian` -> выбрать `Options (Настройки)` увидите что установлен `Russian (Tatar int)`
+
+4. удалите клавиатуру "Russian" (Русский) чтобы был один `Russian (Tatar int)` в системе.
+
+#### 
+
+
+
+## Примечание
 
 Вы можете сделать свою раскладку для своего языка или исправить или дополнить текущую раскладку. Можете использовать бесплатно в различных целях.
 

@@ -154,9 +154,28 @@
 
 4. удалите клавиатуру "Russian" (Русский) чтобы был один `Russian (Tatar int)` в системе.
 
-#### 
+#### 2. Ubuntu
+
+Файлы которые используются ниже вы найдете здесь https://github.com/kaefik/tatar-keyboard-int/tree/master/tatar-russia-keyboard/linux
 
 
+1. Скопировать два файла у казанные места используя `sudo`:
+
+   ```bash
+   sudo cp usr-share-x11-xkb-symbols-ru /usr/share/X11/xkb/symbols/ru
+   sudo cp usr-share-x11-xkb-rules-evdev.xml /usr/share/X11/xkb/rules/evdev.xml
+   ```
+
+2. Нужно перезайти в пользователя или  перезагрузить компьютер
+
+3. В Gnome `Settings` (`Настройки`), выбрать `Keyboard` (`Клавиатура`), и раздел `Input Sources` (`Источники ввода`):
+
+   - Нажмите `+`
+   - Выберите "English (United States)" ("Английский (Соединенные штаты)")
+   - Выберите "Russian (Tatar cyrillic int)"
+   - Нажмите  `Add` (`Добавить`) и закройте.
+
+Замечание. пункты с 1 по 2 можно выполнить запуском скрипта `install_keyboard_tatar_russian.sh`.
 
 ## Примечание
 

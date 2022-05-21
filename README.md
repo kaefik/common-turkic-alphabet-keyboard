@@ -181,7 +181,7 @@
 
 Вы можете сделать свою раскладку для своего языка или исправить или дополнить текущую раскладку. Можете использовать бесплатно в различных целях.
 
-Можно скачать [Microsoft Keyboard Layout Creator](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/MSKLC.exe) и файл раскладки  [us-tatar_latin.klc](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/us-tatar_latin.klc)
+Можно скачать [Microsoft Keyboard Layout Creator](https://github.com/kaefik/common-turkic-alphabet-keyboard/blob/master/windows/MSKLC.exe)
 
 #### Другое
 
